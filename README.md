@@ -16,4 +16,4 @@ Features include format selection, custom download folder, real-time progress wi
    ```yaml
    pip install -r requirements.txt
    ```
-   
+   ## If you face any issues installing the dependencies, try creating and activating a virtual environment before installing:  
