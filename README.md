@@ -21,23 +21,22 @@ Features include format selection, custom download folder, real-time progress wi
    python -m venv .venv
    ```
 
-On Linux/macOS:
+## On Linux/macOS:
    ```yaml
    source .venv/bin/activate
    ```
 
-On Windows:
+## On Windows:
    ```yaml
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-text
 
 3. **Running the Application:**  
-```python gui.py```
-
-text
+```yaml
+python gui.py
+```
 
 ## Features
 - Download videos and audio from YouTube and other supported sites  
