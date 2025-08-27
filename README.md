@@ -16,11 +16,15 @@ Features include format selection, custom download folder, real-time progress wi
    ```yaml
    pip install -r requirements.txt
    ```
-   ## *If you face any issues installing the dependencies, try creating and activating a virtual environment before installing:
-   ```python -m venv .venv```
+## *If you face any issues installing the dependencies, try creating and activating a virtual environment before installing:
+   ```yaml
+   python -m venv .venv
+   ```
 
 On Linux/macOS:
-```source .venv/bin/activate```
+   ```yaml
+   source .venv/bin/activate
+   ```
 
 On Windows:
    ```yaml
