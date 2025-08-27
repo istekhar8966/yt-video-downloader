@@ -16,4 +16,41 @@ Features include format selection, custom download folder, real-time progress wi
    ```yaml
    pip install -r requirements.txt
    ```
-   ## If you face any issues installing the dependencies, try creating and activating a virtual environment before installing:  
+   ## *If you face any issues installing the dependencies, try creating and activating a virtual environment before installing:
+   ```python -m venv .venv```
+
+On Linux/macOS:
+```source .venv/bin/activate```
+
+On Windows:
+   ```yaml
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+text
+
+3. **Running the Application:**  
+```python gui.py```
+
+text
+
+## Features
+- Download videos and audio from YouTube and other supported sites  
+- Choose output formats like MP4, MP3, MKV, 720p, 1080p  
+- Select or change the download folder before downloading  
+- View download progress with speed and ETA  
+- Pause, Resume, and Cancel downloads  
+- Download history with clickable entries to open files  
+- Dark Mode and Light Mode toggle  
+- Sidebar navigation with Home, History, and Settings tabs  
+
+## Notes
+- FFmpeg is mandatory for audio extraction and conversion tasks.  
+- This project is cross-platform and should work on Windows, Linux, and macOS.  
+- For any issues or feature requests, feel free to open an issue on the project repository.
+
+---
+
+Thank you for using the Modern yt-dlp Downloader!
+
